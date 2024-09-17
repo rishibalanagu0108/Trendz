@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.cart-summary-container {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-summary-container {
+    margin-top: 30px;
+  }
+}
+
+.cart-summary-heading {
+  color: #616e7c;
+  font-size: 27px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.cart-summary-count {
+  color: #616e7c;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.cart-summary-btn {
+  text-align: center;
+  background-color: #0b69ff;
+  color: #fff;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 10px 3px 10px 3px;
+}
+
+.total-amount {
+  font-size: 34px;
+  color: #000;
+}
